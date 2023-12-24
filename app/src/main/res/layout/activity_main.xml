@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultActivity"
+    android:padding="10dp"
+    android:background="@drawable/lastwallpaper">
+
+    <TextView
+        android:id="@+id/right"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/red"
+        android:text="@string/textview"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/wrong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/right"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/green"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="#070707"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/last"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/wrong"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/yellow"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="#020202"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/restart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp"
+        android:background="@color/purple_700"
+        android:text="@string/restart"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        tools:ignore="TextSizeCheck,VisualLintButtonSize" />
+
+
+</RelativeLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainwallpaper">
+
+    <TextView
+        android:id="@+id/head"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:fontFamily="sans-serif"
+        android:text="QUIZ APP"
+        android:textColor="#FB0909"
+        android:textSize="60dp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/head"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp"
+        android:hint="Enter your name"
+        tools:ignore="TouchTargetSizeCheck"
+        android:textSize="25dp"/>
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="450dp"
+        android:background="#FF9800"
+        android:text="start"
+        android:textColor="#F4F4F4"
+        android:textSize="30dp"
+        tools:ignore="TextContrastCheck"
+        android:height="50dp"
+        android:width="300dp"/>
+
+    <Button
+        android:id="@+id/about"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="550dp"
+        android:background="#673AB7"
+        android:text="about"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:height="50dp"
+        android:width="300dp"/>
+
+
+</RelativeLayout>
